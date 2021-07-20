@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.inback {
+  background-color: indianred;
+}
+
+#titlefont {
+  font-family:'Dela Gothic One',cursive;
+  font-size: 80px;
+  color: darkred;}
+
+img{
+    border: 10px solid #ddd;
+    border-color: firebrick;
+}
+
+p{
+  border: 5px solid #ddd;
+  border-color: firebrick;  
+}
+
+p > span {
+  color: darkred;
+  font-size: 30px;
+}
+
+body{
+  min-height: 100vh;
+  background-image: radial-
+    gradient {Red, Blue, Yellow};
+  color:darkcyan
+}
+ 
+
+.container{
+  background: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.reverse{
+  flex-direction:column-reverse;
+  align-items: flex-end; 
+}
+
+.big{
+  flex-grow: 5 important;
+}
+
+#thisone {
+  background: crimson;
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 25px;
+
+}
+
+#thatone {
+  background: darkred;
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 25px;
+
+}
+
+.theseones{
+  background: black;
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+
+
+
