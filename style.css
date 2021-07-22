@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.inback {
+  text-align: center;
+  position: fixed;
+  background: radial-gradient(darkcyan, #ffffff00);
+  border-radius: 100%;
+  
+}
+
+.navLinks{
+  display:inline;
+  margin-right: 10px;
+  font-size: 25 px;
+  font-family: 'Dela Gothic One';
+  color: black;
+}
+
+.navLinks:hover{
+  font-size: 50 px;
+  font-family: "Dela Gothic One";
+  color: darkorchid;
+}
+
+#yearbook{
+  display: flex;
+  justify-content: space-around;
+}
+
+.yearbookPhoto{
+  margin-top: 230px;
+}
+
+#BattleoftheBands{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#titlefont {
+  font-family:'Dela Gothic One',cursive;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  margin: 60px;
+}
+
+#bodyfont {
+  font-family:'Dela Gothic One';
+  color: black;
+  text-align: center;  
+}
+
+#bodyfont1 {
+  font-family:'Dela Gothic One';
+  color: black;
+  text-align: center;
+}
+
+#bodyfont2 {
+  font-family:'Dela Gothic One';
+  color: black;
+  text-align: center;
+}
+
+#bodyfont3 {
+  font-family:'Dela Gothic One';
+  color: black;
+  text-align: center;
+}
+
+#bodyfont4 {
+  font-family:'Dela Gothic One';
+  color: black;
+  text-align: center;
+}
+
+#bodyfont5 {
+  font-family:'Dela Gothic One';
+  color: black;
+  text-align: center;
+}
+
+
+p{
+  font:'Dela Gothic One';
+
+}
+
+p > span {
+  color: darkred;
+  font-size: 30px;
+  
+}
+
+body{
+  min-height: 100vh;
+  background: radial-gradient(Red, Blue, Yellow, darkcyan);
+  
+}
+ 
+
+
+
