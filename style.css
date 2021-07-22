@@ -1,13 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 .inback {
-  background-color: indianred;
+  text-align: center;
+  position: fixed;
+  background: radial-gradient(darkcyan, #ffffff00);
+  border-radius: 100%;
+}
+
+.navLinks{
+  display:inline;
+  margin-right: 10px;
+  font-size: 25 px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.navLinks:hover{
+  font-size: 50 px;
+  font-family: sans-serif;
+  color: darkorchid;
+}
+
+#yearbook{
+  display: flex;
+  justify-content: space-around;
+}
+
+.yearbookPhoto{
+  margin-top: 230px;
 }
 
 #titlefont {
   font-family:'Dela Gothic One',cursive;
   font-size: 80px;
-  color: darkred;}
+  color: black;}
 
 img{
     border: 10px solid #ddd;
@@ -26,9 +52,7 @@ p > span {
 
 body{
   min-height: 100vh;
-  background-image: radial-
-    gradient {Red, Blue, Yellow};
-  color:darkcyan
+  background: radial-gradient(Red, Blue, Yellow, darkcyan);
 }
  
 
